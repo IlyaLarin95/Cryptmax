@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Meta -->
+    @@include("partials/meta.html")
+    
+    <title>Cryptmax</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+
+
+<div class="wrapper">
+
+    @@include("partials/header.html")
+    
+    <main class="main">
+        
+        <section class="promo" id="promo">
+            <div class="container">
+                <div class="promo__main">
+                    <h2 class="promo__subtitle">CREATE, EXPLORE, COLLECT DIGITAL ART NFTs</h2>
+                    <h1 class="promo__title">Discover Your Digital
+                        Art & Collect NFTs</h1>
+                    <a href="#explore" class="promo__btn btn">Explore</a>
+                    <div class="promo__counter">
+                        <div class="promo__counter-item">
+                            <div class="promo__counter-item_top"><span class="num">19</span>k+</div>
+                            <div class="promo__counter-item_bottom">Artwork</div>
+                        </div>
+                        <div class="promo__counter-item">
+                            <div class="promo__counter-item_top"><span class="num">13</span>k+</div>
+                            <div class="promo__counter-item_bottom">Auction</div>
+                        </div>
+                        <div class="promo__counter-item">
+                            <div class="promo__counter-item_top"><span class="num">8</span>k+</div>
+                            <div class="promo__counter-item_bottom">Artist</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo__bg-img">
+                    <img class="promo__bg-img_1" src="img/bg-element.jpg" alt="element">
+                </div>
+                <div class="promo__bg-img">
+                    <img class="promo__bg-img_2" src="img/image.jpg" alt="bg-image">
+                    <div class="promo__bg-play" data-modal="video-play">
+                        <img class="promo__bg-icon" src="icons/video-play.svg" alt="video-play">
+                        <svg class="play" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.8333 10.0121C17.8333 10.644 17.6345 11.2782 17.2367 11.7861C17.1622 11.8858 16.8142 12.2965 16.5407 12.5638L16.3916 12.7096C14.3035 14.9234 9.10819 18.2527 6.47327 19.3196C6.47327 19.3439 4.90722 19.9781 4.16147 20H4.06204C2.91857 20 1.84968 19.3706 1.3028 18.35C1.00451 17.7886 0.731071 16.1604 0.706214 16.1385C0.482491 14.678 0.333344 12.4423 0.333344 9.98785C0.333344 7.41435 0.482491 5.07898 0.755929 3.6452C0.755929 3.6209 1.02937 2.30863 1.20337 1.8712C1.47681 1.2418 1.97397 0.70474 2.59542 0.36452C3.09257 0.123937 3.61459 0 4.16147 0C4.73319 0.0267315 5.80209 0.388822 6.22467 0.55893C9.00877 1.62819 14.3284 5.12757 16.3667 7.2661C16.7147 7.60633 17.0876 8.02188 17.187 8.11665C17.6096 8.65127 17.8333 9.3074 17.8333 10.0121Z" fill="white"/>
+                            </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="fresh-collection">
+            <div class="container">
+                <div class="fresh-collection__wrapper">
+                    <div class="fresh-collection__item"><a href="#" class="fresh-collection__link">
+                        <img src="img/image01.webp" alt="image 01">
+                    </a></div>
+                    <div class="fresh-collection__item"><a href="#" class="fresh-collection__link">
+                        <img src="img/image02.webp" alt="image 02">
+                    </a></div>
+                    <div class="fresh-collection__item"><a href="#" class="fresh-collection__link">
+                        <img src="img/image03.webp" alt="image 03">
+                    </a></div>
+                    <div class="fresh-collection__item">
+                        <h2 class="fresh-collection__title">Latest Artwork <br>
+                            Fresh Collection <br>
+                            From Artist</h2>
+                        <button class="fresh-collection__btn btn">View Item</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="best-seller">
+            <div class="container">
+                <div class="best-seller__top">
+                    <h2 class="best-seller__title title">Best Seller</h2>
+                </div>
+        
+                        <div class="swiper-arrow swiper-arrow_prev">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 25L22 30.7735V19.2265L12 25ZM37 24H21V26H37V24Z" fill="#666666"/>
+                                <circle cx="25" cy="25" r="24.25" stroke="#CCCCCC" stroke-width="1.5"/>
+                                </svg>
+                        </div>
+                        <div class="swiper-arrow swiper-arrow_next">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38 25L28 19.2265V30.7735L38 25ZM13 26L29 26V24L13 24V26Z" fill="#666666"/>
+                                <circle cx="25" cy="25" r="24.25" transform="rotate(-180 25 25)" stroke="#CCCCCC" stroke-width="1.5"/>
+                                </svg>
+                        </div>
+                    
+                    <div class="swiper best-sellerSwiper">
+                        <div class="best-seller__wrapper swiper-wrapper">
+                            <div class="best-seller__item swiper-slide">
+                                <div class="best-seller__photo">
+                                    <a href="page-author.html" class="best-seller__link">
+                                        <img src="img/photo1.webp" alt="photo1">
+                                    </a>
+                                </div>
+                                <div class="best-seller__name">James Zeller</div>
+                                <div class="best-seller__icons">
+                                    <a href="#">
+                                        <img src="icons/lavel1.svg" alt="lavel1">
+                                    </a>
+                                    <img src="icons/bagde.svg" alt="bagde">
+                                    <img src="icons/analitic.svg" alt="analitic">
+                                </div>
+                                <div class="best-seller__price">2.45 ETH</div>
+                                <div class="best-seller__divider"></div>
+                                <button class="best-seller__btn btn"><img src="icons/plus.svg" alt="plus"> Add</button>
+                            </div>
+        
+                            <div class="best-seller__item swiper-slide">
+                                <div class="best-seller__photo">
+                                    <a href="page-author.html" class="best-seller__link">
+                                        <img src="img/photo2.webp" alt="photo1">
+                                    </a>
+                                </div>
+                                <div class="best-seller__name">Susan Franklin</div>
+                                <div class="best-seller__icons">
+                                    <a href="#"><img src="icons/lavel2.svg" alt="lavel2"></a>
+                                    <img src="icons/bagde.svg" alt="bagde">
+                                    <img src="icons/analitic.svg" alt="analitic">
+                                </div>
+                                <div class="best-seller__price">2.25 ETH</div>
+                                <div class="best-seller__divider"></div>
+                                <button class="best-seller__btn btn"><img src="icons/plus.svg" alt="plus"> Add</button>
+                            </div>
+        
+                            <div class="best-seller__item swiper-slide">
+                                <div class="best-seller__photo">
+                                    <a href="page-author.html" class="best-seller__link">
+                                        <img src="img/photo3.webp" alt="photo1">
+                                    </a>
+                                </div>
+                                <div class="best-seller__name">James Watson</div>
+                                <div class="best-seller__icons">
+                                    <a href="#"><img src="icons/lavel3.svg" alt="lavel3"></a>
+                                    <img src="icons/bagde.svg" alt="bagde">
+                                    <img src="icons/analitic.svg" alt="analitic">
+                                </div>
+                                <div class="best-seller__price">2.00 ETH</div>
+                                <div class="best-seller__divider"></div>
+                                <button class="best-seller__btn btn"><img src="icons/plus.svg" alt="plus"> Add</button>
+                            </div>
+        
+                            <div class="best-seller__item swiper-slide">
+                                <div class="best-seller__photo">
+                                    <a href="page-author.html" class="best-seller__link">
+                                        <img src="img/photo4.webp" alt="photo1">
+                                    </a>
+                                </div>
+                                <div class="best-seller__name">Hazel Abron</div>
+                                <div class="best-seller__icons">
+                                    <a href="#"><img src="icons/lavel4.svg" alt="lavel4"></a>
+                                    <img src="icons/bagde.svg" alt="bagde">
+                                    <img src="icons/analitic.svg" alt="analitic">
+                                </div>
+                                <div class="best-seller__price">1.75 ETH</div>
+                                <div class="best-seller__divider"></div>
+                                <button class="best-seller__btn btn"><img src="icons/plus.svg" alt="plus"> Add</button>
+                            </div>
+        
+                            <div class="best-seller__item swiper-slide">
+                                <div class="best-seller__photo">
+                                    <a href="page-author.html" class="best-seller__link">
+                                        <img src="img/photo1.webp" alt="photo1">
+                                    </a>
+                                </div>
+                                <div class="best-seller__name">James Zeller</div>
+                                <div class="best-seller__icons">
+                                    <a href="#"><img src="icons/lavel1.svg" alt="lavel1"></a>
+                                    <img src="icons/bagde.svg" alt="bagde">
+                                    <img src="icons/analitic.svg" alt="analitic">
+                                </div>
+                                <div class="best-seller__price">2.45 ETH</div>
+                                <div class="best-seller__divider"></div>
+                                <button class="best-seller__btn btn"><img src="icons/plus.svg" alt="plus"> Add</button>
+                            </div>
+        
+                            <div class="best-seller__item swiper-slide">
+                                <div class="best-seller__photo">
+                                    <a href="page-author.html" class="best-seller__link">
+                                        <img src="img/photo1.webp" alt="photo1">
+                                    </a>
+                                </div>
+                                <div class="best-seller__name">James Zeller</div>
+                                <div class="best-seller__icons">
+                                    <a href="#"><img src="icons/lavel1.svg" alt="lavel1"></a>
+                                    <img src="icons/bagde.svg" alt="bagde">
+                                    <img src="icons/analitic.svg" alt="analitic">
+                                </div>
+                                <div class="best-seller__price">2.45 ETH</div>
+                                <div class="best-seller__divider"></div>
+                                <button class="best-seller__btn btn"><img src="icons/plus.svg" alt="plus"> Add</button>
+                            </div>   
+        
+                        </div>  
+                    </div>    
+                </div>        
+        </section>
+        
+        @@include("partials/explore.html")
+        
+        <section class="guide">
+            <div class="container">
+                <div class="guide__top">
+                    <h2 class="guide__title title">NFTs Markeplace Guide</h2>
+                    <a href="page-faq.html" class="guide__details">
+                        Full User Guidance Details
+                        <svg width="35" height="35" viewBox="0 0 35 35" fill="#3772FF" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="17.5001" cy="17.5" r="17" transform="rotate(180 17.5001 17.5)" stroke="#3772FF"/>
+                            <path d="M25.0001 17L17.5001 12.6699V21.3301L25.0001 17ZM10.0001 17.75H18.2501V16.25H10.0001V17.75Z" fill="#fff"/>
+                            </svg>
+                    </a>
+                </div>
+                <div class="swiper guide-swiper">
+                    <div class="guide-wrapper swiper-wrapper">
+                        <div class="guide-slide swiper-slide">
+                        <div class="guide-slide__head">
+                            <img src="icons/guide.svg" alt="guide" class="guide-slide__icon">
+                            <div class="guide-slide__title">What is Cryptmax NFT Marketplace?</div>
+                        </div>
+                        <div class="guide-slide__info">
+                            To list an NFT for sale, our team will first of all approve the content to make sure it’s appropriate for listing. This process usually takes 4-8 hours. Upon successful approval, your NFT will list immediately on the Marketplace as either an auction or fixed price sale, according to your preference. Alternatively, you can also choose to list your NFT at a fixed time (with a minimum of 12 hours after approval).
+                            <ul>
+                                <li>Events: Buy premium and exclusive NFTs created by global leading artists</li>
+                                <li>Marketplace: Mint, purchase, and bid on NFTs from creators around the world</li>
+                                <li>Mystery Box: Stand a chance to win rare NFTs in a box full of surprises</li>
+                            </ul>
+                        </div>
+                        </div>
+        
+                        <div class="guide-slide swiper-slide">
+                        <div class="guide-slide__head">
+                            <img src="icons/guide.svg" alt="guide" class="guide-slide__icon">
+                            <div class="guide-slide__title">What is Cryptmax NFT Marketplace?</div>
+                        </div>
+                        <div class="guide-slide__info">
+                            To list an NFT for sale, our team will first of all approve the content to make sure it’s appropriate for listing. This process usually takes 4-8 hours. Upon successful approval, your NFT will list immediately on the Marketplace as either an auction or fixed price sale, according to your preference. Alternatively, you can also choose to list your NFT at a fixed time (with a minimum of 12 hours after approval).
+                            <ul>
+                                <li>Events: Buy premium and exclusive NFTs created by global leading artists</li>
+                                <li>Marketplace: Mint, purchase, and bid on NFTs from creators around the world</li>
+                                <li>Mystery Box: Stand a chance to win rare NFTs in a box full of surprises</li>
+                            </ul>
+                        </div>
+                        </div>
+        
+                        <div class="guide-slide swiper-slide">
+                        <div class="guide-slide__head">
+                            <img src="icons/guide.svg" alt="guide" class="guide-slide__icon">
+                            <div class="guide-slide__title">What is Cryptmax NFT Marketplace?</div>
+                        </div>
+                        <div class="guide-slide__info">
+                            To list an NFT for sale, our team will first of all approve the content to make sure it’s appropriate for listing. This process usually takes 4-8 hours. Upon successful approval, your NFT will list immediately on the Marketplace as either an auction or fixed price sale, according to your preference. Alternatively, you can also choose to list your NFT at a fixed time (with a minimum of 12 hours after approval).
+                            <ul>
+                                <li>Events: Buy premium and exclusive NFTs created by global leading artists</li>
+                                <li>Marketplace: Mint, purchase, and bid on NFTs from creators around the world</li>
+                                <li>Mystery Box: Stand a chance to win rare NFTs in a box full of surprises</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination guide-swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="popular">
+            <div class="container">
+                <h2 class="popular__title title">Popular Artwork</h2>
+
+                @@include("partials/catalog.html")
+        
+            </div>
+        </section>
+        
+        <section class="collection">
+            <div class="container">
+                <h2 class="collection__title title">Hot collections</h2>
+                <div class="collection__wrapper">
+                    <div class="collection__item">
+                        <div class="collection__top">
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/1.webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/image1.webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/image2.webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-discover.html" class="collection__link">
+                                <span class="collection__link-more">+30</span>
+                                <img src="img/image3.webp" alt="" class="collection__img">
+                            </a>
+                        </div>
+                    <div class="collection__name">Walking On Air</div>
+                        <a href="page-author.html" class="collection__author">
+                            <img src="img/3.webp" alt="" class="collection__author-photo">
+                            By <span class="collection__author-name">James Zeller</span>
+                        </a>
+                    </div>
+                    <div class="collection__item">
+                        <div class="collection__top">
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/1(2).webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/image4.webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/image5.webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-discover.html" class="collection__link">
+                                <span class="collection__link-more">+25</span>
+                                <img src="img/image6.webp" alt="work" class="collection__img">
+                            </a>
+                        </div>
+                    <div class="collection__name">Walking On Air</div>
+                        <a href="page-author.html" class="collection__author">
+                            <img src="img/3.webp" alt="" class="collection__author-photo">
+                            By <span class="collection__author-name">James Zeller</span>
+                        </a>
+                    </div>
+                    <div class="collection__item">
+                        <div class="collection__top">
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/1(1).webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/image7.webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-product.html" class="collection__link">
+                                <img src="img/image8.webp" alt="work" class="collection__img">
+                            </a>
+                            <a href="page-discover.html" class="collection__link">
+                                <span class="collection__link-more">+24</span>
+                                <img src="img/pawel-czerwinski.jpg" alt="" class="collection__img">
+                            </a>
+                        </div>
+                    <div class="collection__name">Walking On Air</div>
+                        <a href="page-author.html" class="collection__author">
+                            <img src="img/3.webp" alt="" class="collection__author-photo">                        
+                                By <span class="collection__author-name">James Zeller</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="start-collecting">
+            <div class="container">
+                <div class="start-collecting__wrapper">
+                    <div class="start-collecting__left">
+                        <h3 class="start-collecting__subtitle">SAVE YOUR TIME WITH STACKS</h3>
+                        <h2 class="start-collecting__title">Start a Crypto Collecting
+                        and Sell Your Artwork</h2>
+                    </div>
+                    <div class="start-collecting__right">
+                        <button class="start-collecting__btn btn">Create Item</button>
+                        <a href="page-discover.html" class="start-collecting__btn btn">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    @@include("partials/footer.html")
+
+    
+</div>
+
+<div class="overlay">
+    <div class="video" id="video">
+        <div class="video__content">
+            <div class="video__close">&times;</div>
+            <iframe width="1200" height="600" src="https://www.youtube-nocookie.com/embed/LXb3EKWsInQ" title="YouTube video player" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js" ></script>
+    <script src="js/modal.js" ></script>
+    <script src="js/tabs.js" ></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

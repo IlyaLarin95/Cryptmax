@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Meta -->
+    @@include("partials/meta.html")
+
+    <title>Cryptmax | Product</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    @@include("partials/header.html")
+
+    <main class="main">
+
+        <div class="product">
+            <div class="container">
+                <div class="product__wrapper">
+                    <div class="product__img">
+                        <img src="img/pawel-czerwinski.jpg" alt="product-image">
+                    </div>
+                    <div class="product__info">
+                        <h1 class="product__title">The Paradox Forge</h1>
+                        <div class="product__bet"><span>2.75 ETH</span>
+                            10+ People place bit
+                        </div>
+                        <div class="product__price">$3,950.87</div>
+                        <div class="product__descr">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+                        <div class="product__owner">
+                            <div class="product__owner-head">Owner</div>
+                            <a href="page-author.html" class="product__owner-body">
+                                <img src="img/card-photo1.webp" alt="photo" class="product__owner-img">
+                                <div class="product__owner-name">James Zeller</div>
+                            </a>
+                        </div>
+                        <div class="product__tags">
+                            <span>Info</span>
+                            <span>Art</span>
+                            <span>Clebrities</span>
+                        </div>
+                        <div class="product__last-bet">
+                            <div class="product__accepted">
+                                <img src="img/card-photo2.webp" alt="photo" class="product__accepted-img">
+                                <div class="product__accepted-info">
+                                    <div class="product__accepted-sum">Bid accepted <span>0.005 ETH</span>
+                                    </div>
+                                    <div class="product__accepted-name">by <span>Susan Franklin</span> at 6/15/2021, 3:20 AM</div>
+                                </div>
+                            </div>
+                            <div class="product__accepted">
+                                <img src="img/card-photo3.webp" alt="photo" class="product__accepted-img">
+                                <div class="product__accepted-info">
+                                    <div class="product__accepted-sum">Bid accepted <span>0.005 ETH</span>
+                                    </div>
+                                    <div class="product__accepted-name">by <span>James Watson</span> at 6/14/2021, 5:40 AM</div>
+                                </div>
+                            </div>
+                            <div class="product__accepted">
+                                <img src="img/card-photo4.webp" alt="photo" class="product__accepted-img">
+                                <div class="product__accepted-info">
+                                    <div class="product__accepted-sum">Bid accepted <span>0.005 ETH</span>
+                                    </div>
+                                    <div class="product__accepted-name">by <span>Hazel Abeon</span> at 6/13/2021, 5:03 AM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__btn">
+                            <button data-modal="purchase" class="product__btn-buy btn">Purchase Now</button>
+                            <button class="product__btn-bid btn">Place a bid</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    @@include("partials/footer.html")
+
+</div>
+
+<div class="overlay">
+    <div class="purchase" id="purchase">
+        <div class="purchase__close close">&times;</div>
+        <div class="purchase__title title">Purchase</div>
+        <div class="purchase__main">
+            <img src="img/pawel-czerwinski.jpg" class="purchase__img" alt="NFT">
+            <div class="purchase__info">
+                <div class="purchase__name">The Paradox Forge</div>
+                <div class="purchase__author">James Zeller</div>
+            </div>
+            <div class="purchase__price">2.75 ETH</div>
+        </div>
+        <div class="purchase__btns">
+            <button class="purchase__btn btn">Purchase</button>
+            <button class="purchase__btn_cancel btn">Cancel</button>
+        </div>
+    </div>
+
+    <div class="thanks" id="thanks">
+        <div class="thanks__close close">&times;</div>
+        <div class="thanks__title title">Thank you for your purchase!</div>
+    </div>
+</div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js" ></script>
+    <script src="js/modal.js" ></script>
+    <script src="js/tabs.js" ></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

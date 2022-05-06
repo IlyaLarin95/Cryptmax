@@ -1,0 +1,44 @@
+.explore {
+    &__top {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+    &__swiper-arrows {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        .arrow {
+            cursor: pointer;
+            svg {
+                transition: .3s linear;
+            }
+            &:hover {
+                svg {
+                    fill: $dark-blue;
+                    transition: .3s linear;
+                }
+            }
+        }
+    }
+    &__wrapper {
+        margin-top: 60px;
+    }
+    .swiper-arrow-disabled {
+        svg {
+            fill: none;
+            circle {
+                stroke: #CCCCCC;
+            }
+            path {
+                fill: #888888;
+            }
+        }
+        &:hover {
+            svg {
+                fill: none;
+            }
+        }
+    }
+}
